@@ -41,6 +41,37 @@ void ledB2()
   digitalWrite(3, 0); //--1
   digitalWrite(4, 1); //--2 
 }
+
+void ledA()
+{
+  digitalWrite(8, 1); //--B
+  digitalWrite(9, 0); //--A
+  digitalWrite(3, 1); //--1
+  digitalWrite(4, 1); //--2
+}
+void ledB()
+{
+  digitalWrite(8, 0); //--B
+  digitalWrite(9, 1); //--A
+  digitalWrite(3, 1); //--1
+  digitalWrite(4, 1); //--2
+}
+
+void led1()
+{
+  digitalWrite(8, 0); //--B
+  digitalWrite(9, 0); //--A
+  digitalWrite(3, 1); //--1
+  digitalWrite(4, 0); //--2
+}
+void led2()
+{
+  digitalWrite(8, 0); //--B
+  digitalWrite(9, 0); //--A
+  digitalWrite(3, 0); //--1
+  digitalWrite(4, 1); //--2
+}
+
   
 void allOff()
 {
