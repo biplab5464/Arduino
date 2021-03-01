@@ -21,7 +21,7 @@ void setup()
     esp.println("AT+CWMODE=1"); //change to station mode(i also confused why we do it)
     esp.println("AT+CWJAP=\""+ssid+"\",\""+pass+"\"");  //give ssid and password to intialize the connection
     if(esp.find("OK"))      Serial.println("connected to wifi");
-    else                    Serial.println("try again \n failed to connect to internet");
+    else                    Serial.println("trying again failed to connect to wifi");
     //*********************************************************************
 
 }
